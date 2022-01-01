@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.firstSection{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./coverPic.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(100%);
+    
+}
+
+.secondSection{
+    height: 100vh;
+    background-color: chocolate;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.thirdSection{
+    height: 60vh;
+    background-color: rgb(0, 183, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.raftingSvg{
+    position: relative;
+    top: 120px;
+    width: 300px;
+    height: 300px;
+  
+}
+
+.forthSection{
+    height: 200vh;
+    background-color: rgb(0, 137, 250);
+}
