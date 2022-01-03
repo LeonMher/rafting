@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(100%);
+    
     
 }
 
@@ -29,10 +29,40 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('./gev.jpg');
+    background-size: cover;
 
 }
 
+.firstPic{
+  
+    width: 540px;
+    height: 400px;
+}
 
+.secondPic{
+    
+    
+    width: 540px;
+    height: 400px;
+}
+
+.forthPic{
+    width: 540px;
+    height: 400px; 
+}
+.pics{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+
+.firstPic, .secondPic, .forthPic{
+    padding: 15px;
+}
+.thirdPic{
+    width: 100%;
+}
 
 .thirdSection{
     height: 60vh;

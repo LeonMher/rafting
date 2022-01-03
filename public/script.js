@@ -18,15 +18,15 @@ document.querySelectorAll(".test").forEach(function(box) {
 gsap.registerPlugin(ScrollTrigger); 
 
 
-gsap.to('.moveIt', {
-    scrollTrigger: ".moveIt",
+// gsap.to('.moveIt', {
+//     scrollTrigger: ".moveIt",
     
-    rotationX: 45, 
-    scaleX: 1.8, 
-    scaleY: 1.8, 
-    z: 300
+//     rotationX: 45, 
+//     scaleX: 1.8, 
+//     scaleY: 1.8, 
+//     z: 300
     
-})
+// })
 
 gsap.to('.moveIt', {
     scrollTrigger: {
